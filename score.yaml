@@ -16,6 +16,8 @@ containers:
       Hello: World
 
 resources:
+  storage:
+    type: s3
   cache:
     type: redis
   dns: # We need a DNS record to point to the service 
